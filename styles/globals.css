@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #292F3F;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -14,3 +15,98 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --blue: #03A9F1;
+  --orange: #F18303;
+  --darkGray: #373E4E;
+  --whiteGray: #C4C4C4;
+  --gray: #565E70;
+  --lightGray: #7A8194;
+  --grayLighter: #373E4E;
+  --grayDarker: #272A35;
+  --violet: #B347EA;
+  --lightViolet: #837DFF;
+  --green: #00AC83;
+}
+
+
+.blueBg {
+  background-color:var(--blue);
+}
+.orangeBg {
+  background-color: var(--orange);
+}
+.darkGrayBg {
+  background-color: var(--darkGray);
+}
+.whiteGrayBg {
+  background-color: var(--whiteGray);
+}
+.grayBg {
+  background-color: var(--gray);
+}
+.lightGrayBg {
+  background-color: var(--lightGray);
+}
+.violetBg {
+  background-color: var(--violet);
+}
+.lightVioletBg {
+  background-color: var(--lightViolet);
+}
+.greenBg {
+  background-color: var(--green);
+}
+
+
+.blueColor {
+  color:var(--blue);
+}
+.orangeColor {
+  color: var(--orange);
+}
+.darkGrayColor {
+  color: var(--darkGray);
+}
+.whiteGrayColor {
+  color: var(--whiteGray);
+}
+.grayColor {
+  color: var(--gray);
+}
+.lightGrayColor {
+  color: var(--lightGray);
+}
+.violetColor {
+  color: var(--violet);
+}
+.lightVioletColor {
+  color: var(--lightViolet);
+}
+.greenColor {
+  color: var(--green);
+}
+
+.button {
+  display: inline;
+  border-radius: 10px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-right: 10px;
+  border: 0;
+}
+
+button.smallPadding {
+  padding: 10px 19px;
+  white-space: nowrap;
+}
+button.remove {
+  padding: 12px;
+  border: 1px solid var(--orange);
+  display: flex;
+}
+

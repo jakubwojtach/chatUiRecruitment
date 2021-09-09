@@ -1,0 +1,33 @@
+.container {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+.userContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonsContainer {
+    display: flex;
+    margin-top: 15px;
+}
+.avatar {
+    height: 44px;
+    img {
+        border-radius: 30px;
+        border: 2px solid var(--gray) !important;
+    }
+    filter: drop-shadow(4px 4px 24px rgba(0, 0, 0, 0.45));
+    &.special {
+        img {
+            border: 2px solid var(--violet) !important;
+        }
+    }
+}
+.userName {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}

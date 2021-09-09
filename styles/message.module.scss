@@ -1,0 +1,75 @@
+.users {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userNames {
+    text-align: right;
+    color: #fff;
+}
+.userAvatars {
+    display: flex;
+}
+
+.avatar {
+    height: 44px;
+    margin-right: 10px;
+    filter: drop-shadow(4px 4px 24px rgba(0, 0, 0, 0.45));
+    img {
+        border-radius: 30px;
+    }
+}
+.name {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 3.5px 0;
+    font-weight: 400;
+}
+.messages {
+    margin-top: 35px;
+    max-height: 70vh;
+    overflow: scroll;
+}
+
+.messengerFooter {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 52px;
+    left: 30px;
+    width: calc(100% - 60px);
+    button {
+        border-radius: 10px;
+        border: 0;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.messageBox {
+    display: flex;
+    margin-right: 15px;
+    flex-grow: 1;
+    position: relative;
+    input {
+        width: 100%;
+        background-color: var(--grayDarker);
+        border: 0;
+        resize: none;
+        padding: 12px 50px 12px 15px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

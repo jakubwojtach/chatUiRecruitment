@@ -1,0 +1,32 @@
+.date {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 20px;
+}
+
+.msgBox {
+    border-radius: 20px;
+    margin: 10px 0;
+    padding: 12px 15px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    display: table;
+    width: auto;
+}
+
+.messageFirst {
+    background-color: var(--grayLighter);
+    text-align: left;
+    margin-right: auto;
+}
+
+.messageSecond {
+    background-color: var(--grayDarker);
+    text-align: right;
+    margin-left: auto;
+}
